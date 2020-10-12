@@ -5,7 +5,6 @@ public class IA41 {
     private static ArrayList<State> savedStates = new ArrayList<State>();
 
     public static void main(String[] args) {
-        System.out.println("Hello world");
 
         State Ei = new State(null,3,3,0,0,0,0,true);
         State Ef = new State(null,0,0,0,0,3,3,false);
